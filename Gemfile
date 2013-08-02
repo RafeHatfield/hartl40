@@ -18,7 +18,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'selenium-webdriver', '2.0.0'
+  gem 'selenium-webdriver'
   gem 'capybara', '2.1.0'
 
   # Uncomment this line on OS X.
