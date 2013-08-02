@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'spork'
-require 'capybara/rspec'
+# require 'capybara/rspec'
 #uncomment the following line to use spork with the debugger
 #require 'spork/ext/ruby-debug'
 
@@ -15,7 +15,7 @@ Spork.prefork do
   require 'rspec/rails'
   require 'rspec/autorun'
 
-  Capybara.default_driver = :selenium
+  # Capybara.default_driver = :selenium
 
   # Requires supporting ruby files with custom matchers and macros, etc,
   # in spec/support/ and its subdirectories.
